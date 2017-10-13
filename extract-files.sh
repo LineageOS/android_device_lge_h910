@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 #
 # Copyright (C) 2016 The CyanogenMod Project
 # Copyright (C) 2017 The LineageOS Project
@@ -18,9 +18,11 @@
 
 set -e
 
-export DEVICE=h918
-export DEVICE_COMMON=v20-common
-export PLATFORM_COMMON=msm8996-common
-export VENDOR=lge
+DEVICE=h918
+DEVICE_COMMON=v20-common
+PLATFORM_COMMON=msm8996-common
+VENDOR=lge
 
-./../$PLATFORM_COMMON/extract-files.sh $@
+export DEVICE DEVICE_COMMON PLATFORM_COMMON VENDOR
+
+exec ../$PLATFORM_COMMON/extract-files.sh "$@"

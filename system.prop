@@ -1,7 +1,0 @@
-#
-# System Properties for AT&T LG V20
-#
-
-# Radio
-ro.telephony.default_network=9
-telephony.lteOnGsmDevice=1

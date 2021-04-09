@@ -25,4 +25,4 @@ TARGET_OTA_ASSERT_DEVICE := h910,us996,elsa
 TARGET_KERNEL_CONFIG := lineageos_h910_defconfig
 
 # inherit from the proprietary version
--include vendor/lge/h910/BoardConfigVendor.mk
+include vendor/lge/h910/BoardConfigVendor.mk

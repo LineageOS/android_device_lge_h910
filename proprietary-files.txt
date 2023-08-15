@@ -1,9 +1,6 @@
 ### All blobs from this list, unless pinned and noted as otherwise,
 ### are from from elsa_att_us-user 8.0.0 OPR1.170623.032 181871124f959 release-keys
 
-# Bluetooth
-vendor/firmware/BCM4358A3.hcd:vendor/firmware/BCM43xx.hcd
-
 # Graphics - Firmware
 vendor/firmware/a530_gpmu.fw2
 vendor/firmware/a530_pfp.fw

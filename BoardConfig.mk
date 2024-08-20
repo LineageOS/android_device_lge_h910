@@ -22,7 +22,7 @@ DEVICE_PATH := device/lge/h910
 TARGET_OTA_ASSERT_DEVICE := h910,us996,elsa,h915
 
 # Kernel
-TARGET_KERNEL_CONFIG := lineageos_h910_defconfig
+TARGET_KERNEL_CONFIG := vendor/lge/h910.config
 
 # inherit from the proprietary version
 include vendor/lge/h910/BoardConfigVendor.mk

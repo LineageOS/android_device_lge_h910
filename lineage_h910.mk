@@ -34,5 +34,4 @@ PRODUCT_MANUFACTURER := LGE
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="elsa_att_us-user 8.0.0 OPR1.170623.032 181871124f959 release-keys" \
     BuildFingerprint="lge/elsa_att_us/elsa:8.0.0/OPR1.170623.032/181871124f959:user/release-keys" \
-    DeviceName="elsa_att_us" \
     DeviceProduct="elsa"
